@@ -1,0 +1,109 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: linear-gradient(rgb(255, 251, 0), rgb(255, 81, 0));
+  height: 100vh;
+}
+
+#logo {
+  display: block;
+  height: 90px;
+  width: 110px;
+  margin: auto;
+}
+
+.companyName{
+  /* text-align: center; */
+  margin-top: 10px;
+  font-size: larger;
+  font-family: 'Cinzel', serif;
+}
+
+.container {
+  margin: auto;
+  height: 65vh;
+  max-width: 700px;
+  background-color: orange;
+  margin-top: 20px;
+  padding: 30px;
+  overflow-y: auto;
+  border: 2px solid black;
+  border-radius: 22px;
+  box-shadow: black 13px 11px 29px;
+}
+
+.message {
+  background-color: black;
+  width: 30%;
+  margin-left: 5px;
+  padding: 6px;
+  margin-top: 20px;
+  border: 2px solid yellow;
+  border-radius: 12px;
+  color: WHITE;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+
+.mid{
+  margin: auto;
+  clear: both;
+}
+
+#send-container{
+    text-align: center;
+    max-width: 998px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#messageInp{
+    width: 64%;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 32px;
+    height: 25px;
+}
+
+.btn{
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 33px;
+    width: fit-content;
+    padding: 7px;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    transition: all;
+    transition-duration: 1s;
+
+}
+
+::placeholder{
+  text-align: center;
+  color: black;
+}
+
+.footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 0%;
+  height: 12px;
+}
